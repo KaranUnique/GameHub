@@ -209,3 +209,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+// Updating footer year
+document.getElementById('footeryear').textContent =  new Date().getFullYear();
