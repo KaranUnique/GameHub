@@ -86,18 +86,18 @@ function updateResult(result, playerChoice, computerChoice, roundCount = 0) {
   if (result === "final") {
     // final match summary
     if (scores.player > scores.computer) {
-      message = `🏆 You won the match! (${scores.player} - ${scores.computer})`;
+      message = `🏆 You won the match! (${scores.player} - ${scores.computer})  👉 Click 'Reset' to start a new game. `;
       alertClass = "alert alert-success";
     } else if (scores.player < scores.computer) {
-      message = `💻 Computer won the match! (${scores.computer} - ${scores.player})`;
+      message = `💻 Computer won the match! (${scores.computer} - ${scores.player})  👉 Click 'Reset' to start a new game.`;
       alertClass = "alert alert-error";
     } else {
-      message = `🤝 The match is a draw! (${scores.player} - ${scores.computer})`;
+      message = `🤝 The match is a draw! (${scores.player} - ${scores.computer})   👉 Click 'Reset' to start a new game.`;
       alertClass = "alert alert-warning";
     }
-    message += "  Click 'Reset' to play again.";
+    
   } else {
-    message = `Round ${roundCount}: `;
+    message = `Round ${roundCount} of 3: `;
     if (result === "player") {
       message += `You win! ${choices[playerChoice].name} beats ${choices[computerChoice].name}.`;
       alertClass = "alert alert-success";
