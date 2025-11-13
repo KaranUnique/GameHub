@@ -58,7 +58,7 @@ const games = [
     title: "Catch The Ball",
     description: "Move the paddle to catch falling balls and score points!",
     image:
-      "https://images.unsplash.com/photo-1612178992361-2b72c01e6e3e?w=400&h=250&fit=crop&crop=center&auto=format&q=80",
+      "https://media-exp1.licdn.com/dms/image/D4E12AQFOUlObqcurHw/article-cover_image-shrink_720_1280/0/1665063553611?e=2147483647&v=beta&t=Le-LiVJgP1OqjhogNEUBC8jBZcvkxY8Y4wIrlyel_Vw",
     file: "games/catch-ball.html",
     category: "arcade",
   },
