@@ -375,7 +375,15 @@ const games = [
     image: '/static/games/flappyBird/Logo.png',
     file: '/static/games/flappyBird/flappy.html',
     category: 'arcade'
-  }
+  },
+  {
+  id: "whack-a-mole",
+  title: "Whack-A-Mole",
+  description: "Whack the moles before time runs out",
+  image: "/static/assets/Whake-a-mole.png",
+  file: "/static/games/whack-a-mole.html",
+  category: "arcade"
+}
 ];
 
 // ============================================
